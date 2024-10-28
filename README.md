@@ -13,7 +13,8 @@ This project explores the implementation of a Retrieval-Augmented Generation (RA
 
 ## Results
 
-Below are the results of various queries, illustrating the differences between responses generated with and without the reranker. It was observed that while the `similarity_top_k=5` parameter was set during experimentation, the outcomes without the reranker were similar to those achieved with it, indicating that excessive contextual information can lead to vagueness when the reranker is not applied.
+The results of various queries using NVIDIA illustrate the differences between responses generated with and without the reranker. It was observed that while the `similarity_top_k=5` parameter was set during experimentation, the outcomes without the reranker were similar to those achieved with it, indicating that excessive contextual information can lead to vagueness when the reranker is not applied.
+For OPEN AI models the results from the analysis reveal that the inclusion of the reranker did not yield a significant improvement in response quality.
 
 ## Improvements
 
